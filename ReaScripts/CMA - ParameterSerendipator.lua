@@ -1,8 +1,8 @@
--- @description randomize parameter values, track volume, or shuffle lanes based on input into imgui
+-- @description randomize values
 -- @version 1.0
 -- @author CoalminerAudio
--- @about
--- @changelog
+-- @about randomize parameter values based on user input in gui
+-- @changelog initial release
 
 
 ---------------------------------------
