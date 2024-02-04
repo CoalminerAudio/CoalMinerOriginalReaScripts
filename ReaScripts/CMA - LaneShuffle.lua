@@ -7,7 +7,7 @@
 
 
 ---------------------------------------
---[Intro]]--
+--[Intro]]--.
 ---------------------------------------
 --[[
 Hello, this script is designed to shuffle through track lanes, which were added to reaper 7.
