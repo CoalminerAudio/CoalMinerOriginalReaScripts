@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CoalMinerOriginalReaScripts" commit="dcb894fae79dc2fb58eec01150070d65ae67bbf2">
+<index version="1" name="CoalMinerOriginalReaScripts" commit="35d620a5bd8258b704751bae892920c8846c91bb">
   <category name="ReaScripts">
+    <reapack name="CMA - ExplodeItemsToLanes.lua" type="script" desc="explodes selected items into lanes">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 gets the selected media items and explodes them to new track lanes based on the first item position in each track\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="CoalminerAudio" time="2024-02-12T16:44:34Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/35d620a5bd8258b704751bae892920c8846c91bb/ReaScripts/CMA%20-%20ExplodeItemsToLanes.lua</source>
+      </version>
+    </reapack>
     <reapack name="CMA - LaneShuffle.lua" type="script" desc="lane shuffle">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
