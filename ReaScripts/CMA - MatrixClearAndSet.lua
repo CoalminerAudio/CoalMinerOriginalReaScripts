@@ -1,8 +1,9 @@
--- @description clears region matrix, and resets from time and track selection
--- @version 1.0
+-- @description resets region matrix, and sets it from time and track selection
+-- @version 1.0.2
 -- @author CoalminerAudio
 -- @about see master script for function, CMA - MatrixSetMaster
--- @changelog 1.1 file name bug fix
+-- @changelog 1.0.2 more file path bug fixes
+-- 1.0.1 file name bug fix
 -- 1.0 inital release 
 
 ---------------------------------------
@@ -25,5 +26,5 @@ end
 ---------------------------------------
 --[Main]]--
 ---------------------------------------
-local path = reaper.GetResourcePath() .. "/Scripts/CoalMinerOriginals/ReaScripts/CMA - MatrixSetMaster.lua"
+local path = reaper.GetResourcePath() .. "/Scripts/CoalMinerOriginalReaScripts/ReaScripts/CMA - MatrixSetMaster.lua"
 isPathValid(path)
