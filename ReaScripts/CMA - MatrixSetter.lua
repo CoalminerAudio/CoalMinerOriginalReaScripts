@@ -2,7 +2,8 @@
 -- @version 1.0
 -- @author CoalminerAudio
 -- @about see master script for function, CMA - MatrixSetMaster
--- @changelog initial release
+-- @changelog 
+-- 1.1 file name bug fix
 
 
 ---------------------------------------
@@ -24,5 +25,5 @@ end
 ---------------------------------------
 --[Main]]--
 ---------------------------------------
-local path = reaper.GetResourcePath() .. "/Scripts/CoalMinerOriginalReaScripts/ReaScripts/CMA - MatrixSetMaster"
+local path = reaper.GetResourcePath() .. "/Scripts/CoalMinerOriginals/ReaScripts/CMA - MatrixSetMaster.lua"
 isPathValid(path)
