@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="CoalMinerOriginalReaScripts" commit="10cf44040f37b4ea0a8bc821d93b4416dcde3119">
+<index version="1" name="CoalMinerOriginalReaScripts" commit="5c4d59778e047c901ceb1b6201ee6629aef85c14">
   <category name="ReaScripts">
     <reapack name="CMA - ExplodeItemsToLanes.lua" type="script" desc="explodes selected items into lanes">
       <metadata>
@@ -31,7 +31,7 @@
         <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/3e282c0727031c58adacaed8d141e30d7ca25a1b/ReaScripts/CMA%20-%20LaneShuffle.lua</source>
       </version>
     </reapack>
-    <reapack name="CMA - MatrixClearAndSet.lua" type="script" desc="clears region matrix, and resets from time and track selection">
+    <reapack name="CMA - MatrixClearAndSet.lua" type="script" desc="resets region matrix, and sets it from time and track selection">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -44,6 +44,10 @@
       <version name="1.0" author="CoalminerAudio" time="2024-02-18T04:42:59Z">
         <changelog><![CDATA[initial release]]></changelog>
         <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/10cf44040f37b4ea0a8bc821d93b4416dcde3119/ReaScripts/CMA%20-%20MatrixClearAndSet.lua</source>
+      </version>
+      <version name="1.0.2" author="CoalminerAudio" time="2024-02-18T16:16:16Z">
+        <changelog><![CDATA[1.0.2 more file path bug fixes]]></changelog>
+        <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/5c4d59778e047c901ceb1b6201ee6629aef85c14/ReaScripts/CMA%20-%20MatrixClearAndSet.lua</source>
       </version>
     </reapack>
     <reapack name="CMA - MatrixSetMaster.lua" type="script" desc="a list of functions used in other scripts for region matrix control">
@@ -75,6 +79,10 @@
         <changelog><![CDATA[initial release]]></changelog>
         <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/10cf44040f37b4ea0a8bc821d93b4416dcde3119/ReaScripts/CMA%20-%20MatrixSetter.lua</source>
       </version>
+      <version name="1.0.2" author="CoalminerAudio" time="2024-02-18T16:16:16Z">
+        <changelog><![CDATA[1.0.2 more file path bug fixes]]></changelog>
+        <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/5c4d59778e047c901ceb1b6201ee6629aef85c14/ReaScripts/CMA%20-%20MatrixSetter.lua</source>
+      </version>
     </reapack>
     <reapack name="CMA - ParameterSerendipator.lua" type="script" desc="randomize values">
       <metadata>
@@ -104,6 +112,10 @@
       <version name="1.0" author="CoalminerAudio" time="2024-02-18T04:42:59Z">
         <changelog><![CDATA[initial release]]></changelog>
         <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/10cf44040f37b4ea0a8bc821d93b4416dcde3119/ReaScripts/CMA%20-%20ResetRegionMatrix.lua</source>
+      </version>
+      <version name="1.0.2" author="CoalminerAudio" time="2024-02-18T16:16:16Z">
+        <changelog><![CDATA[1.0.2 more file path bug fixes]]></changelog>
+        <source main="main">https://github.com/CoalminerAudio/CoalMinerOriginalReaScripts/raw/5c4d59778e047c901ceb1b6201ee6629aef85c14/ReaScripts/CMA%20-%20ResetRegionMatrix.lua</source>
       </version>
     </reapack>
   </category>
