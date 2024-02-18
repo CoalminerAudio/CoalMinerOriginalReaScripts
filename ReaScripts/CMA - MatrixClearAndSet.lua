@@ -2,9 +2,8 @@
 -- @version 1.0
 -- @author CoalminerAudio
 -- @about see master script for function, CMA - MatrixSetMaster
--- @changelog initial release
--- 1.1 file name bug fix
-
+-- @changelog 1.1 file name bug fix
+-- 1.0 inital release 
 
 ---------------------------------------
 --[Functions]]--
