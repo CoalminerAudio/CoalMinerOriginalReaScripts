@@ -1,9 +1,9 @@
 -- @description a list of functions used in other scripts for region matrix control
--- @version 1.0
+-- @version 1.1
 -- @author CoalminerAudio
 -- @about Functions in this script will either set the region matrix based on
 -- selected tracks and regions in the time selection, clear the region matrix, or do both 
--- @changelog initial release
+-- @changelog fixed bug in getregions function
 
 
 ---------------------------------------
@@ -22,20 +22,20 @@ function getTracks() --returns a table of the selected tracks
 end
 
 function getRegions() --returns a table of regions in the time selection
- reaper.ClearConsole()
-  local rTable = {}
-  local lStart, lEnd = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
-  local _, _, numRegions = reaper.CountProjectMarkers(0)
-  for i = 0, numRegions do
-    local _, isRgn, rStart, rEnd, rgnName, rgnNum = reaper.EnumProjectMarkers(i)
-    if isRgn then
-      if rStart >= lStart and rEnd <= lEnd then
-        table.insert(rTable, rgnNum)
-      end
-    end
-  end
-  return rTable
-end
+  reaper.ClearConsole()
+   local rTable = {}
+   local lStart, lEnd = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
+   local _, _, numRegions = reaper.CountProjectMarkers(0)
+   for i = 0, numRegions - 1 do
+     local _, isRgn, rStart, rEnd, rgnName, rgnNum = reaper.EnumProjectMarkers(i)
+     if isRgn then
+       if rStart >= lStart and rEnd <= lEnd then
+         table.insert(rTable, rgnNum)
+       end
+     end
+   end
+   return rTable
+ end
 
 function getAllRegions() --returns all regions
   local fullRegTable = {}
