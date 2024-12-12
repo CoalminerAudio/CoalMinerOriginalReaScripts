@@ -124,11 +124,11 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Various reaper scripts for use with reaper 7 and beyond\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Various reaper scripts for use with reaper 7 and beyond\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 For more info on me, or for overviews of scripts go to : {\field{\*\fldinst{HYPERLINK "https://www.coalmineraudio.com/"}}{\fldrslt{\ul
 Coalmineraudio.com
 }}}
